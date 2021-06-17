@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function RecipeCard({ recipe }) {
   const { title, slug, cookingTime, thumbnail } = recipe.fields;
-
+  console.log(recipe);
   return (
     <div className="card">
       <div className="featured">
