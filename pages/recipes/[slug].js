@@ -52,7 +52,7 @@ export default function RecipeDetails({ recipe }) {
         <p>Takes approx. {cookingTime} mins to cook</p>
         <h3>Ingredients</h3>
         {ingredients.map((ingredient) => (
-          <span key={ingredient}>{ingredient}, </span>
+          <span key={ingredient}>{ingredient}</span>
         ))}
       </div>
       <div className="method">
